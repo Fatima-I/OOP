@@ -37,6 +37,7 @@ public class Date {
 
     public String toString() {
         String details = String.format("%d/%d/%d", day, month, year);
+
         return details;
     }
 }
